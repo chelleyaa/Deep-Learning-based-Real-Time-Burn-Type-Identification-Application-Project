@@ -21,11 +21,11 @@ The model classifies wounds into five distinct types:
 4. Cloud Storage: Allows users to capture and upload images of burn wounds to Firebase Cloud Storage for record-keeping or further review.
 5. Intuitive UI: A clean and straightforward user interface designed for quick and easy use in a clinical setting.
 
-#Target Audience & Use Case
+# Target Audience & Use Case
 This application is specifically designed for medical student clinical rotation in the Emergency Room (ER).
 In the fast-paced ER environment, interns often need to make quick assessments. This app serves as a preliminary diagnostic aid, offering an objective, data-driven classification of a burn's severity. It is intended to be a decision-support tool to supplement, not replace, professional medical evaluation and expertise.
 
-#Technology Stack
+# Technology Stack
 1. Mobile Development: Java, Android Studio
 2. Deep Learning: TensorFlow Lite, MobileNetV4
 3. Backend Services: Firebase Authentication, Firebase Cloud Storage
