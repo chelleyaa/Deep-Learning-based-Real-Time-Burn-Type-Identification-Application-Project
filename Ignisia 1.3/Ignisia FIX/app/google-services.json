@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "883577639409",
+    "firebase_url": "https://capstonedesign-591de-default-rtdb.firebaseio.com",
+    "project_id": "capstonedesign-591de",
+    "storage_bucket": "capstonedesign-591de.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883577639409:android:fbfa029c728c8c9725b450",
+        "android_client_info": {
+          "package_name": "app.ij.mlwithtensorflowlite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs1u3sYR_vSmGUA89PYxqEliKSpWFv184"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883577639409:android:9c7d2e476fdbcd8b25b450",
+        "android_client_info": {
+          "package_name": "com.kelompok8.ignisia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs1u3sYR_vSmGUA89PYxqEliKSpWFv184"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
