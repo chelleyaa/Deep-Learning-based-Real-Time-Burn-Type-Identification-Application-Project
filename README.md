@@ -30,3 +30,10 @@ In the fast-paced ER environment, interns often need to make quick assessments. 
 2. Deep Learning: TensorFlow Lite, MobileNetV4
 3. Backend Services: Firebase Authentication, Firebase Cloud Storage
 4. Dataset Provider: Roboflow
+
+# Perfomance Highlights
+✔️ High Accuracy: The MobileNet model identifies burn types with an accuracy of 94.7%.
+
+⚡ Fast Identification: Image classification is performed in under 5 seconds, enabling rapid assessment.
+
+📱 Wide Compatibility: The application is optimized to run smoothly on Android devices with a minimum version of Android 6.0 (Marshmallow).
