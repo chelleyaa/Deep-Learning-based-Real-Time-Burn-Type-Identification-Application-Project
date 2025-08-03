@@ -1,33 +1,31 @@
 # Deep-Learning-based-Real-Time-Burn-Type-Identification-Application-Project
-A deep learning-based Android application designed for the real-time identification and classification of burn wound severity. The app integrates a lightweight MobileNetV4 model and leverages Firebase for backend services.
+An Android application designed to identify the severity of burn wounds in real-time using a deep learning model. This project is specifically targeted at junior doctors in high-pressure emergency room environments to provide rapid, reliable diagnostic support.
 
-# About The Project
-This project is an Android application developed to assist in the rapid classification of burn injuries directly from a mobile device's camera. By integrating a highly efficient MobileNetV4 deep learning model, the app provides immediate, on-device analysis of a potential burn wound, classifying it into one of three categories.
+# The Problem
+Burn injuries are a significant global health issue, causing an estimated 180,000 deaths annually, with a high prevalence in Africa and Southeast Asia. In an Emergency Room (ER) setting, the philosophy is "Time Saving is Live Saving," requiring medical personnel to make decisions that are both fast and effective to prevent fatal complications. Junior doctors, who are often on the front lines in the ER, are required to act quickly and precisely. However, a survey conducted for this project revealed a critical gap:
+1. 71.4% of respondents have never used a medical app to assist in burn diagnosis.
 
-The primary goal is to provide a fast, accessible, and reliable decision-support tool for medical professionals in high-pressure environments, helping to streamline the initial assessment process.
+2. Only 19% feel highly confident in diagnosing the severity of a burn wound on their own.
 
-Classification Categories
-The model classifies wounds into three distinct types:
-1. 1st Degree Burn
-2. 2nd Degree Burn
-3. 3rd Degree Burn
+3. A significant majority believe a dedicated screening app would be very helpful to reduce the risk of manual error and increase the speed and efficiency of treatment.
+
+# Solution
+To address these challenges, we developed a real-time burn identification application powered by a deep learning model. The application uses a smartphone's camera to analyze a wound and provide an immediate classification of its severity.
+The primary mission is to accelerate burn wound treatment time and assist junior doctors in making critical clinical decisions by providing a reliable, on-the-spot diagnostic tool.
 
 # Key Features
-1. Real-Time Classification: Uses the live camera feed to identify burn types instantly.
-2. On-Device Deep Learning: Employs a MobileNetV4 model (converted to TensorFlow Lite) for efficient inference without needing a server connection.
-3. User Authentication: Secure user registration and login functionality powered by Firebase Authentication.
-4. Cloud Storage: Allows users to capture and upload images of burn wounds to Firebase Cloud Storage for record-keeping or further review.
-5. Intuitive UI: A clean and straightforward user interface designed for quick and easy use in a clinical setting.
-
-# Target Audience & Use Case
-This application is specifically designed for medical student clinical rotation in the Emergency Room (ER).
-In the fast-paced ER environment, interns often need to make quick assessments. This app serves as a preliminary diagnostic aid, offering an objective, data-driven classification of a burn's severity. It is intended to be a decision-support tool to supplement, not replace, professional medical evaluation and expertise.
+1. Real-Time Classification: Utilizes the device camera to identify the degree of a burn instantly, without the need for manual data entry.
+2. Deep Learning-Powered Diagnosis: Integrates a deep learning algorithm to ensure high accuracy in classification.
+3. First-Aid Recommendations: After identifying the burn's severity, the app provides corresponding first-aid and treatment recommendations.
+4. Senior Doctor Consultation: For severe cases (3rd and 4th-degree burns), the application includes a feature to facilitate contact with a senior doctor for consultation.
+5. Intuitive User Interface: Designed with a simple, responsive, and clear UI to be easily operated in the stressful and fast-paced ER environment.
 
 # Technology Stack
-1. Mobile Development: Java, Android Studio
-2. Deep Learning: TensorFlow Lite, MobileNetV4
-3. Backend Services: Firebase Authentication, Firebase Cloud Storage
-4. Dataset Provider: Roboflow
+1. Mobile Platform: Android
+2. Programming Language: Java
+3. Deep Learning : TensorFlow Lite, MobileNetV4
+4. User Interface: Android Studio UI toolkit
+5. Backend Services: Firebase Authentication, Firebase Cloud Storag
 
 # Perfomance Highlights
 ✔️ High Accuracy: The MobileNet model identifies burn types with an accuracy of 94.7%.
