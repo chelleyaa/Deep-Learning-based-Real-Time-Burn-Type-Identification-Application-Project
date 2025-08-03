@@ -2,17 +2,16 @@
 A deep learning-based Android application designed for the real-time identification and classification of burn wound severity. The app integrates a lightweight MobileNetV4 model and leverages Firebase for backend services.
 
 # About The Project
-This project is an Android application developed to assist in the rapid classification of burn injuries directly from a mobile device's camera. By integrating a highly efficient MobileNetV4 deep learning model, the app provides immediate, on-device analysis of a potential burn wound, classifying it into one of five categories.
+This project is an Android application developed to assist in the rapid classification of burn injuries directly from a mobile device's camera. By integrating a highly efficient MobileNetV4 deep learning model, the app provides immediate, on-device analysis of a potential burn wound, classifying it into one of four categories.
 
 The primary goal is to provide a fast, accessible, and reliable decision-support tool for medical professionals in high-pressure environments, helping to streamline the initial assessment process.
 
 Classification Categories
 The model classifies wounds into five distinct types:
-1. Normal Skin
-2. 1st Degree Burn
-3. 2nd Degree Burn
-4. 3rd Degree Burn
-5. 4th Degree Burn
+1. 1st Degree Burn
+2. 2nd Degree Burn
+3. 3rd Degree Burn
+4. 4th Degree Burn
 
 # Key Features
 1. Real-Time Classification: Uses the live camera feed to identify burn types instantly.
